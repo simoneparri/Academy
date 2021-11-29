@@ -1,5 +1,5 @@
 # Academy
-## Academy Projects
+## Projects
 
 - Multi child to parent communication
 
