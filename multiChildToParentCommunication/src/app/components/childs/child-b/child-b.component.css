@@ -1,0 +1,14 @@
+.mat-card {
+    background: #69f0ae;
+}
+.mat-card-subtitle,p {
+    color: #000000;
+}
+
+.mat-card-subtitle {
+    font-style: italic;
+}
+
+.mat-card-content {
+    font-style: normal;
+}

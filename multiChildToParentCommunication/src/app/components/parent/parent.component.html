@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-subtitle>parent</mat-card-subtitle>
+    <mat-card-content>
+        <table align="center">
+            <tr>
+                <td>
+                    <app-child-a-list [list]="list" (seletctedUser)="writeDetailTochildB($event)"></app-child-a-list>
+                </td>
+                <td style="padding-left: 8rem;">
+                    <app-child-b [user]="detail"></app-child-b>
+                </td>
+            </tr>
+        </table>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="reset()">Reset</button>
+    </mat-card-actions>
+</mat-card>

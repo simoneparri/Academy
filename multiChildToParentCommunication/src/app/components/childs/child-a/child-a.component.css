@@ -1,0 +1,13 @@
+div {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  margin-left: 1.5rem;
+}
+.mat-card-subtitle {
+    font-style: italic;
+}
+.mat-card-content {
+    font-style: normal;
+}

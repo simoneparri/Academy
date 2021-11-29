@@ -1,0 +1,9 @@
+<mat-card>
+    <mat-card-subtitle>child b component</mat-card-subtitle>
+    <mat-card-content *ngIf="user">
+        <p>name: {{user.name}}</p>
+        <p>surname: {{user.surname}}</p>
+        <p>dateOfBirth: {{user.dateOfBirth | date}}</p>
+        <p>city: {{user.city}}</p>
+    </mat-card-content>
+</mat-card>

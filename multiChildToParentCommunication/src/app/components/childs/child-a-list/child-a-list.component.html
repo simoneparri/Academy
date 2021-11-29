@@ -1,0 +1,8 @@
+<mat-card>
+    <mat-card-subtitle>child list component</mat-card-subtitle>
+    <mat-card-content>
+        <ng-container *ngFor="let item of list">
+            <app-child-a [user]="item" (seletctedUser)="emitUser($event)"></app-child-a>
+        </ng-container>
+    </mat-card-content>
+</mat-card>
